@@ -1,0 +1,202 @@
+.item1{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    animation-name: square;
+    animation-duration: 4s;
+
+}
+@keyframes square{
+0%{background-color: blue ;
+  
+}
+
+}
+/*.......task2.....*/
+.box{
+    padding: 10px;
+    height: 120px;
+    width: 200px;
+    background-color: gainsboro;
+}
+.box1{
+    margin: 20px;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    transform: rotate(20deg);
+    
+}
+.box2{
+    
+    padding: 10px;
+    height: 120px;
+    width: 200px;
+    background-color: gainsboro;   
+}
+.box3{
+   
+    margin: 20px;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    transform: rotate(-30deg);  
+}
+.item{
+    background-color: orangered;
+    height: 150px;
+    width: 150px;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-iteration-count: normal;
+
+}
+@keyframes  circle{
+0%{
+background-color: red;}
+25%{
+    background-color: green;
+}
+50%{
+    background-color: yellow;
+}
+75%{
+    background-color: blue;
+}
+
+
+}
+/*.........task4.....*/
+.img1{
+    
+    height: 200px;
+  transform: translateX(800px);  
+}
+
+/*......task5......*/
+.imges{
+
+margin: 100px;
+}
+.img22{
+  opacity: 50%;  
+  position: absolute;
+}
+.img33{
+    transform: rotate(-20deg);   
+    position: absolute;
+}
+/*.......task6......*/
+.imges1{
+    margin: 100px;
+ 
+}
+.img20{
+  opacity: 50%;  
+  position: absolute;
+}
+.img19{
+    transform: rotate(30deg);
+    position: absolute;
+    transform-origin: bottom right;
+}
+/*......task7.......*/
+.p1{
+    background-color: blue;
+    width: 100px;
+    height: 20px;
+    margin: 100px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 15px;
+   border-radius: 10px;
+   transition: 2s;
+}
+.p1:hover{
+ width: 100%;   
+}
+/*......task8.....*/
+.animation{ background-color: orangered;
+height: 200px;
+width: 200px;
+animation-name: movement;
+animation-duration: 4s;
+
+
+}
+@keyframes  movement{
+0%{
+    
+    translate: 0 0;
+background-color: red;}
+25%{
+ 
+    translate: 200px 0;
+background-color: yellow;
+}
+50%{
+
+    
+    translate: 200px 200px; 
+background-color: blue;
+}
+75%{
+
+    translate: 200px 0;
+background-color: green;
+}
+100%{
+
+   translate: 0 0;
+    background-color: red;
+}
+}
+/*....task9....*/
+.mine{
+ background-color: gray; 
+ height: 700px;
+ width: 500px;
+
+}
+.mine1{
+background-color: aliceblue;
+width: 300px;
+height: 500px;
+text-align: center;
+padding: 20px;
+margin: 40px;
+box-shadow: 5px 5px 10px black;
+
+}
+.card{
+font-size: larger;
+
+}
+.card1{
+    color: gray;
+   text-align: center;
+}
+.card3{
+    background-color:rgba(96, 188, 201, 0.534);
+    text-align: center;
+}
+.card4{
+    color: gray;
+text-align: center;
+}
+.card5{
+    width: 20px;
+    text-align: start;
+}
+.card8{
+  color: rgb(84, 133, 175);
+ padding: 10px;
+  border: 1px solid rgb(163, 163, 163); }
+
+ .card8:hove{
+ background-color: rgb(50, 50, 255);
+ color: white;
+ border: 1px solid rgb(50, 50, 255);
+ }
